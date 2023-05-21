@@ -56,7 +56,7 @@
 
 ## Ergebnis
 
-[Layer Control für Hintergrundlayer der basemap.at Beispiel](https://openwebcc.github.io/cookbook/examples/control_layers_baselayers.html) ([Source](https://github.com/openwebcc/cookbook/blob/main/examples/control_layers_baselayers.html))
+[Layer Control für alle Hintergrundlayer der basemap.at Beispiel](https://openwebcc.github.io/cookbook/examples/control_layers_baselayers.html) ([Source](https://github.com/openwebcc/cookbook/blob/main/examples/control_layers_baselayers.html))
 
 ___
 [Inhaltsverzeichnis](https://openwebcc.github.io/cookbook/index)
