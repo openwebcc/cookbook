@@ -32,7 +32,15 @@
         let map = L.map("map");
         map.setView([47.267222, 11.392778], 13);
 
-        L.tileLayer.provider('BasemapAT.basemap').addTo(map);
+        let layerControl = L.control.layers({
+            "BasemapAT Grau": L.tileLayer.provider("BasemapAT.grau").addTo(map),
+            "BasemapAT Standard": L.tileLayer.provider("BasemapAT.basemap"),
+            "BasemapAT High-DPI": L.tileLayer.provider("BasemapAT.highdpi"),
+            "BasemapAT Gelände": L.tileLayer.provider("BasemapAT.terrain"),
+            "BasemapAT Oberfläche": L.tileLayer.provider("BasemapAT.surface"),
+            "BasemapAT Orthofoto": L.tileLayer.provider("BasemapAT.orthofoto"),
+            "BasemapAT Beschriftung": L.tileLayer.provider("BasemapAT.overlay")
+        }).addTo(map)
 
         let marker = L.marker([47.267222, 11.392778]).addTo(map);
         marker.bindPopup("Innsbruck");
