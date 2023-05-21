@@ -4,11 +4,11 @@
 
 - Browser & Visual Studio Code
 - Leafletbibliothek unter <https://leafletjs.com>
-- Template: [first_leaflet_map.html](https://openwebcc.github.io/cookbook/blob/main/templates/first_leaflet_map.html) mit einem Visual Studio Code *"html 5"* Baustein als Grundgerüst
+- Template: [first_leaflet_map.html](https://github.com/openwebcc/cookbook/blob/main/templates/first_leaflet_map.html) mit einem Visual Studio Code *"html 5"* Baustein als Grundgerüst
 
 ## Ablauf
 
-1. das Template [first_leaflet_map.html](https://openwebcc.github.io/cookbook/blob/main/templates/first_leaflet_map.html) kopieren und dort weiterarbeiten 🔗[COMMIT](https://github.com/openwebcc/cookbook/commit/21fd73f5abd44186937685c1404843dafadcadc5)
+1. das Template [first_leaflet_map.html](https://github.com/openwebcc/cookbook/blob/main/templates/first_leaflet_map.html) kopieren und dort weiterarbeiten 🔗[COMMIT](https://github.com/openwebcc/cookbook/commit/21fd73f5abd44186937685c1404843dafadcadc5)
 
 2. den Kartenbereich vorbereiten
 
