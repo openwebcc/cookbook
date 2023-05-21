@@ -45,6 +45,8 @@
             ])
         }).addTo(map)
 
+        layerControl.expand();
+
         let marker = L.marker([47.267222, 11.392778]).addTo(map);
         marker.bindPopup("Innsbruck");
         marker.openPopup();
